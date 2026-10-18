@@ -1,0 +1,47 @@
+{
+  "name": "telegram-attachments",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Mehdi Davoodi",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~56.0.12",
+    "@expo/vector-icons": "^15.0.3",
+    "@legendapp/list": "3.3.3",
+    "expo": "~56.0.11",
+    "expo-asset": "~56.0.14",
+    "expo-blur": "~56.0.3",
+    "expo-font": "~56.0.5",
+    "expo-glass-effect": "~56.0.4",
+    "expo-haptics": "~56.0.3",
+    "expo-image": "~56.0.11",
+    "expo-linear-gradient": "~56.0.4",
+    "expo-status-bar": "~56.0.4",
+    "expo-symbols": "~56.0.6",
+    "expo-video": "~56.1.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-gesture-handler": "~2.31.1",
+    "react-native-reanimated": "4.3.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets": "0.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@types/react": "~19.2.14",
+    "typescript": "~6.0.3"
+  },
+  "expo": {
+    "autolinking": {
+      "nativeModulesDir": "./modules"
+    }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

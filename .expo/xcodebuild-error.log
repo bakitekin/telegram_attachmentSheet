@@ -1,0 +1,7 @@
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution [CP-User]\ Build\ ExpoModulesJSI\ xcframework /Users/bakitekin/Library/Developer/Xcode/DerivedData/telegramattachments-eprolavaitokbrdwehwniipmyutd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ExpoModulesJSI.build/Script-46EB2E00019AF0.sh (in target 'ExpoModulesJSI' from project 'Pods')
+	Building workspace telegramattachments with scheme telegramattachments and configuration Debug
+(2 failures)

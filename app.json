@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "telegram-attachments",
+    "slug": "telegram-attachments",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mehdidavoodi.telegram-attachments",
+      "infoPlist": {
+        "CADisableMinimumFrameDurationOnPhone": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mehdidavoodi.telegram-attachments"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset",
+      "expo-status-bar",
+      "expo-video",
+      "expo-image"
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
